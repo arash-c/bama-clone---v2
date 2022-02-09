@@ -5,9 +5,9 @@ var icon = document.getElementById("dark-click");
 icon.onclick = function() {
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode")){
-      icon.src = "/img/sun.png";
+      icon.src = "img/sun.png";
     }else{
-      icon.src = "/img/moon.png";
+      icon.src = "img/moon.png";
     }
 }
 
@@ -115,7 +115,7 @@ function xFunction() {
   
 }
 
-// var onfocus = document.getElementById('click-tab-1')
+
 
 
 
@@ -132,46 +132,3 @@ var swiper = new Swiper(".swiper", {
     }
   });
 
-
-  // const swiper2 = new Swiper('.swiper-hero', {
-  //   // Optional parameters
-  //   direction: 'vertical',
-  //   loop: true,
-  //   slidesPerView: 1,
-  //   autoplay: {
-  //         delay: 4500,
-  //       },
-  
-  
-    
-  
-  // });
-
-
-
-//   <!-- Hero Swiper --> 
-//   <div class="swiper-hero-container">
-//       <div class="background">  
-//       <!-- Slider main container -->   
-//               <div class="swiper-hero">  
-//                   <!-- Additional required wrapper -->
-//                   <div class="swiper-wrapper">
-//                   <!-- Slides -->
-//                   <div class="swiper-slide">Slide 1</div> 
-//                   <div class="swiper-slide">Slide 2</div>
-//                   <div class="swiper-slide">Slide 3</div>
-//                   ...  
-//                   </div>
-//                   <!-- If we need pagination -->
-//                   <div class="swiper-pagination"></div>
-              
-//                   <!-- If we need navigation buttons -->
-//                   <div class="swiper-button-prev"></div>
-//                   <div class="swiper-button-next"></div>
-              
-//                   <!-- If we need scrollbar -->
-//                   <div class="swiper-scrollbar"></div>
-//               </div>
-//       </div>
-
-// </div>
