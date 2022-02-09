@@ -5,9 +5,9 @@ var icon = document.getElementById("dark-click");
 icon.onclick = function() {
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode")){
-      icon.src = "img/sun.png";
+      icon.src = "sun.png";
     }else{
-      icon.src = "img/moon.png";
+      icon.src = "moon.png";
     }
 }
 
